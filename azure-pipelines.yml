@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  name: samplecicd
+  # name: samplecicd
+  vmImage: 'ubuntu-latest'
 strategy:
   matrix:
     Python27:
